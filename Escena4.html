@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>LA HABITACIÓN</title>
+	
+	<script>
+    var direcciones = new Array("Escena1.html", "Escena2.html", "Escena3.html", "Escena4.html", "Escena5.html", "Escena6.html", "Escena7.html", "Escena8.html", "Escena9.html", "Escena10.html", "Escena11.html", "Escena12.html", "Escena13.html", "Escena14.html", "Escena15.html", "Escena16.html", "Escena17.html", "Escena18.html", "Escena19.html", "Escena20.html")
+    function enlaceAleatorio(){
+       aleat = Math.random() * direcciones.length
+       aleat = Math.floor(aleat)
+       window.location=direcciones[aleat]
+    }
+</script>
+	
+<style type="text/css">
+#gift {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+#TEXTO {
+	position: absolute;
+	top: 300px;
+	right: 100px;
+}
+</style>
+</head>
+
+<body>
+	<div id="TEXTO"><a href="javascript:enlaceAleatorio()"><img src="TEXTO15.png"></a></div>
+
+<center><table height="920" width="1900" border="0" bgcolor="0e1b39">
+  <tbody>
+    <tr>
+		<td width="512" rowspan="2"><center><a href="javascript:enlaceAleatorio()"><img src="E4C1.gif"></a></center></td>
+		<td width="1378" height="323"><center><img src="E4C2.jpg"></center></td>
+    </tr>
+    <tr>
+		<td height="560"><center><img src="E4C3.jpg"></center></td>
+    </tr>
+  </tbody>
+	</table></center>
+
+
+</body>
+</html>
